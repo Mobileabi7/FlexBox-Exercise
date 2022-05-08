@@ -1,0 +1,36 @@
+@font-face {
+    font-family: vazir;
+    src: url(Vazirmatn-Regular.ttf);
+}
+*{
+    direction: ltr;
+    font-family: vazir;
+}
+body{
+    
+    font-size: 16px;
+}
+
+.container{
+    background-color: #8395a7;
+    border: 4px solid #222f3e;
+}
+.container > div {
+    font-size: 1.4em;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.search{
+    background-color: chartreuse;
+
+
+}
+.home{
+    background-color: burlywood;
+
+}
+.login{
+    background-color: crimson;
+
+}
